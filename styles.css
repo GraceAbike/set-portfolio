@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f9;
+}
+
+.toolbar {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.3rem 1rem;
+}
+
+a.logo {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+.hamburger {
+  text-decoration: none;
+}
+
+.presentation-page {
+  background-image: url(../images/Mobile.png);
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5rem;
+  padding: 6.9rem 1rem;
+  margin-top: 2rem;
+  background-color: #fff;
+}
+
+.presentation-text {
+  font-size: 40px;
+  font-style: normal;
+  align-items: center;
+  color: #172b4d;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.presentation-page p {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 19px;
+  margin-left: 4px;
+}
+
+.social {
+  padding-top: 12px;
+  gap: 19px;
+  list-style: none;
+  color: #6070ff;
+  font-size: 16;
+  font-weight: 500;
+}
+
+.social li {
+  display: inline;
+  margin: 0.5rem;
+}
+
